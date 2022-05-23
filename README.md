@@ -4,7 +4,7 @@
 
 ## Course Objectives
 -
- Upon successful completion of the course, the learner will be able to 
+ - Upon successful completion of the course, the learner will be able to 
  
  Dropping unnecessary columns in a DataFrame
  
