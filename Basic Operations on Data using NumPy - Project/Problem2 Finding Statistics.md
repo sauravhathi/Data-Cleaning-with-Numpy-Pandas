@@ -94,5 +94,18 @@ Median : 732.00
 Standard Deviation : 214218.97
 
 ```
+import numpy as np
+def main():
+    print("Enter the transactions done in each month for last year")
+    transactions=[]
+    for i in range(12):
+        transactions.append(int(input()))
+    total = sum(transactions)
+    median = np.median(transactions)
+    std = np.std(transactions)
+    print("Mean : {:.2f}".format(total/12))
+    print("Median: {:.2f}".format(median))
+    print("Standard Deviation : {:.2f}".format(std))
 
+main()
 ```
