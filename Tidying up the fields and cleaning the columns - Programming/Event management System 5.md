@@ -53,7 +53,7 @@ NoOfDates TotalCost
 
 ### Solution:
 
-```
+```Python
 import pandas as pd
 
 df = pd.read_csv("Event_Management_system5.csv")
