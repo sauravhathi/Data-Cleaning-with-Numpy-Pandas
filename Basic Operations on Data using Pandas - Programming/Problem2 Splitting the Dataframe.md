@@ -125,14 +125,26 @@ Varun,Delhi,21/09/2020,marriage,20000,200
 Sunil,Agra,19/07/2017,get together,35000,300
 
 ---
+dataFrame2.csv
+
+cust_name,addr,date,event_type,cost,no_of_people
+Dilip,hebbal,27/12/2018,marriage,40000,400
+Prakash,indore,18/05/2014,mehndi,70000,700
+Sunita,Agra,19/07/2017,get together,35000,300
+Sunny,kanpur,10/11/2017,get together,10000,300
+Rajesh,Delhi,21/09/2020,marriage,20000,200
+Anil,bhopal,20/01/2020,marriage,20000,200
+Akshay,kanpur,10/10/2017,get together,10000,300
+Varun,Delhi,21/08/2020,marriage,20000,200
+Sunil,Agra,19/07/2017,get together,35000,300
+Arun,kanpur,10/17/2017,get together,10000,300
 
 ```
 import pandas as pd
 
 df = pd.read_csv('dataFrame1(1).csv')
 
-df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y').dt.strftime('%m')
-df['date'] = df['date'].astype(int)
+df['date'] = df['date'].str.split('/').str[-2].astype(int)
 
 print("Bookings on or Before June:")
 before_june = df[df['date'] <= 6]
