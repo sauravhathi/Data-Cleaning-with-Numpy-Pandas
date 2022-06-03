@@ -116,7 +116,7 @@ event population
 
 Prestigious Event is New Year concert
 
-```
+```python
 import numpy as np
 def main():
     n = int(input("Enter the number of events scheduled"))
