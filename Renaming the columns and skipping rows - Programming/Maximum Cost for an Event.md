@@ -16,7 +16,7 @@ For sample data frame, see the attached CSV file.
 The output is the integer value as maximum cost for an event.
 
 **Sample Input:**
-```csv
+```python
 cust_name,addr,date,event_type,cost,no_of_people
 vikram,hebbal,04/20/2018,marriage,40000,200
 sachin,indore,"09,10,2019",mehndi,70000,700
@@ -29,7 +29,7 @@ vikram,kanpur,06/21/2019,get together,30000,300
 70000
 
 **Sample Input:**
-``csv
+``python
 cust_name addr date event_type cost no_of_people
 vikram hebbal 4/20/2018 marriage 20000 200
 sachin indore 09,10,2019 mehndi 70000 700
@@ -42,7 +42,7 @@ vikram kanpur 6/21/2019 get together 200000 300
 
 ### Solution:
 
-```python
+```
 import pandas as pd
 
 df = pd.read_csv("dataFrame1.csv", error_bad_lines=False)
