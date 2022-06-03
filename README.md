@@ -1,6 +1,4 @@
-# <p align="center">
-    Data Cleaning with Numpy Pandas
-</p>
+# <p align="center">Data Cleaning with Numpy Pandas</p>
  Data Cleaning with Numpy and Pandas
 
 
