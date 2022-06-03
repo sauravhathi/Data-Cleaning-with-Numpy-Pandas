@@ -1,4 +1,4 @@
-<center>Fun Game - 1</center>
+# <p align="center">Fun Game - 1</p>
  
 Sita works as an event organizer. Since her young age, she was always interested in organizing the kitty parties and she organizes some fun events for her customers as well. 
  
@@ -123,6 +123,31 @@ Enter your choice
 3)Diagonal elements
 4)Exit
 4
+```
+
+```python
+Input: 5
+25
+3
+4
+
+Enter the order of seating arrangement
+Enter the starting seat number
+25 26 27 28 29
+30 31 32 33 34
+35 36 37 38 39
+40 41 42 43 44
+45 46 47 48 49
+Enter your choice
+1)next
+2)previous
+3)Diagonal elements
+4)Exit
+25 0 0 0 0
+0 31 0 0 0
+0 0 37 0 0
+0 0 0 43 0
+0 0 0 0 49
 ```
 
 ```python
