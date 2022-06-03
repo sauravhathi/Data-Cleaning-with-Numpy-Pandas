@@ -34,5 +34,20 @@ DataSet when LakshmiPrasad is handling
 +---+--------+----------+-----------+-----------+
 ```
 
+### Solution:
+```python
+import pandas as pd
+from tabulate import tabulate as tb
 
+df = pd.read_csv('product.csv')
+
+print("DataSet when SureshPrasad is handling")
+print(tb(df, headers='keys', tablefmt='psql'))
+
+df.rename(columns={'ProductId': 'ItemId', 'ProductName': 'ItemName',
+          'ProductPrice': 'ItemPrice', 'ProductCount': 'ItemCount'}, inplace=True)
+          
+print("DataSet when LakshmiPrasad is handling")
+print(tb(df, headers='keys', tablefmt='psql'))
+```
 Happy Coding
