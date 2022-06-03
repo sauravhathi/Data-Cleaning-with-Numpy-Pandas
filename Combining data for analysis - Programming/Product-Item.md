@@ -8,7 +8,7 @@ Input will be provided through a CSV file say it top be(product.csv).
 **Sample Input-Output:**
 **product.csv**
 
-``sql
+``python
 DataSet when SureshPrasad is handling
 
 +---+-----------+-------------+--------------+--------------+
