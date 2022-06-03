@@ -8,7 +8,7 @@ Input will be provided through a CSV file say it top be(product.csv).
 **Sample Input-Output:**
 **product.csv**
 
-``python
+```python
 DataSet when SureshPrasad is handling
 
 +---+-----------+-------------+--------------+--------------+
@@ -32,7 +32,7 @@ DataSet when LakshmiPrasad is handling
 | 4 |  104   |   Ink    |     35    |     10    |
 | 5 |  105   |   Box    |     45    |     5     |
 +---+--------+----------+-----------+-----------+
-``
+```
 
 
 Happy Coding
