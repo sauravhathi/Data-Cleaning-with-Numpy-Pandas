@@ -48,7 +48,7 @@ vikram kanpur 6/21/2019 get together 200000 300
 
 ### Solution:
 
-```
+```python
 import pandas as pd
 
 df = pd.read_csv("dataFrame1.csv", error_bad_lines=False)
