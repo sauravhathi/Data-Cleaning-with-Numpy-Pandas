@@ -68,6 +68,46 @@ Number of elements in the dataset is 3
 RangeIndex(start=0, stop=3, step=1)
 ```
 
+```python
+Input: 3
+"Marraige"
+"Birthday Celebration"
+"Family Gettogether"
+
+Enter number of elements
+Enter the elements
+Elements in the dataset
+0 Marraige
+1 Birthday Celebration
+2 Family Gettogether
+dtype: object
+Dataset is with 1 dimension data
+Number of elements in the dataset is 3
+RangeIndex(start=0, stop=3, step=1)
+```
+
+```python
+Input: 5
+99999.99
+11000.00
+2500
+21035
+21094
+
+Enter number of elements
+Enter the elements
+Elements in the dataset
+0 99999.99
+1 11000.00
+2 2500.00
+3 21035.00
+4 21094.00
+dtype: float64
+Dataset is with 1 dimension data
+Number of elements in the dataset is 5
+RangeIndex(start=0, stop=5, step=1)
+```
+
 **Solution:**
 
 ```python
