@@ -24,7 +24,7 @@ The output consists of **Aged(max)** and **young(min)** person wrt corresponding
  
 
 **Sample Input-Output:**
-```
+```python
 Enter the number rows
 
 5
