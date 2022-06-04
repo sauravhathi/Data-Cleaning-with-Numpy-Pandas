@@ -53,7 +53,7 @@ Max - Min in 4 row is 17
 Max - Min in 5 row is 32
 ```
 
-```
+```python
 Input: 2
 4
 21,34,42,31
