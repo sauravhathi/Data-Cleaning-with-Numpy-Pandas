@@ -16,7 +16,6 @@
  - Skipping unnecessary rows in a CSV file
 
 
-
 ### Basic Operations on Data using NumPy
 
 * [Event Fund Entries](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Basic%20Operations%20on%20Data%20using%20NumPy%20-%20Project/Event%20Fund%20Entries.md)
@@ -74,14 +73,15 @@
 
 ### Combining data for analysis
 
-* [Product Item](https://github.com/sauravhathi)
+* [Product Item](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Combining%20data%20for%20analysis%20-%20Programming/Product-Item.md)
 * [Quiz - 1](https://github.com/sauravhathi)
 * [Quiz - 2](https://github.com/sauravhathi)
-* [Column Wise Merging](https://github.com/sauravhathi)
-* [Row Wise Merging](https://github.com/sauravhathi)
-* [Concatenate the Data using Globbing](https://github.com/sauravhathi)
-* [One to Many Merge](https://github.com/sauravhathi)
-* [Many to Many Merge](https://github.com/sauravhathi)
+* [Column Wise Merging](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Combining%20data%20for%20analysis%20-%20Programming/Column%20Wise%20Merging.md)
+* [Row Wise Merging](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Combining%20data%20for%20analysis%20-%20Programming/Row%20Wise%20Merging.md)
+* [Concatenate the Data using Globbing](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Combining%20data%20for%20analysis%20-%20Programming/Concatenate%20the%20Data%20using%20Globbing.md)
+* [One to Many Merge](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Combining%20data%20for%20analysis%20-%20Programming/One%20to%20Many%20Merge.md)
+* [Many to Many Merge](https://github.com/sauravhathi/Data-Cleaning-with-Numpy-Pandas/blob/master/Combining%20data%20for%20analysis%20-%20Programming/Many%20to%20Many%20Merge.md)
+
 
 <h1 align="center">Happy Learning</h1>
 
